@@ -11,6 +11,25 @@
 ![http://localhost:8080/swagger-ui/index.html](ReadmeImg/swagger.png)
 
 
+## Postman
+
+- GET
+
+![all](ReadmeImg/all.png)
+![findById](ReadmeImg/findById.png)
+
+- POST
+
+![post](ReadmeImg/create.png)
+
+- PUT
+
+![put](ReadmeImg/update.png)
+
+- DELETE
+
+![delete](ReadmeImg/delete.png)
+
 ## Authors
 
 * **Juan Camilo Bazurto** - [Linkedin](https://www.linkedin.com/in/juan-camilo-b-b65379105/) - [GitHub](https://github.com/juan-bazurto-eci)

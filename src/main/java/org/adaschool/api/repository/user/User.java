@@ -6,7 +6,7 @@ import java.util.Date;
 
 public class User {
 
-    private final String id;
+    private String id;
     private final Date createdAt;
     private String name;
     private String lastName;
@@ -75,5 +75,9 @@ public class User {
         if (!userDto.getPassword().isEmpty()) {
             this.passwordHash = new BCryptPasswordEncoder().encode(userDto.getPassword());
         }
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 }
